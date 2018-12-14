@@ -1,0 +1,428 @@
+
+.header-div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+.logo {
+	width: 200px;
+    height: 60px;
+    
+}
+.nav-ul {
+    display: flex;
+    
+}
+.nav-li {
+	margin-left: 25px;
+}
+.nav-a {
+    color: #3D58A6;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: RobotoRegular;
+}
+.nav-a:hover{
+	opacity: 0.6;
+} 
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.google {
+    padding: 0 18px 0 0;
+}
+.fb {
+    border-left: 1px #3D58A6 solid;
+    padding: 0 18px;
+}
+.youtube {
+    border-left: 1px #3D58A6 solid;
+    padding: 0 18px;
+}
+.serch {
+    border-left: 1px #3D58A6 solid;
+    padding: 0 0 0 18px;
+}
+.soc-img {
+    height: 30px;
+}
+.serch-img {
+    height: 40px;
+}
+
+.burger {
+    display: none;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #3D58A6;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.bar1, .bar2, .bar3 {
+  width: 40px;
+  height: 5px;
+  background-color: #3D58A6;
+  margin: 3%;
+  transition: 0.4s;
+}
+.burger:hover .bar1 {
+    transform: rotate(45deg) translate(9px, 8px);
+}
+
+.burger:hover .bar2 {opacity: 0;
+}
+.burger:hover .bar3 {
+    transform: rotate(-45deg) translate(4px, -3px);
+}
+
+.red {
+height: 90px;
+background-color: #EE4036;
+display: flex;
+}
+.red-a {
+color: #fff;
+font-size: 22px;
+font-family: RobotoRegular;
+text-transform: uppercase;
+margin-left: 4%;
+align-self: center;
+}
+
+.map {
+    display: flex;
+    background-color: #E6E6E6;
+    align-items: center;
+    justify-content: center;
+}
+.map-div {
+    display: flex;
+    margin: 2% auto;
+}
+.geolab {
+    width: 1170px;
+    height: 460px;
+}
+
+.contact-section {
+    display: flex;
+    background-color: #363E97;
+    width: 1170px;
+    height: 621px;
+    margin: auto;
+}
+.left {
+    width: 210px;
+    height: 110px;
+    margin-left: 100px;
+    margin-top: 45px;
+}
+.left-li {
+    color: #fff;
+    margin-top: 30px;
+    font-family: MyriadProRegular;
+    font-size: 20px;
+}
+.left-li-fax {
+    color: #fff;
+    font-family: MyriadProRegular;
+    font-size: 20px;
+}
+.left-li-street {
+    color: #fff;
+    font-family: MyriadProRegular;
+    font-size: 20px;
+}
+.right {
+    width: 630px;
+    height: 550px;
+    margin-top: 45px;
+    margin-left: 60px;
+}
+.display {
+        display: flex;
+    flex-direction: column;
+}
+.label {
+    color: #fff;
+    font-size: 20px;
+    font-family: MyriadProRegular;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+.label-name {
+    color: #fff;
+    font-size: 20px;
+    font-family: MyriadProRegular;
+    margin-left: 25px;
+    
+}
+.label-massage {
+    color: #fff;
+    font-size: 20px;
+    font-family: MyriadProRegular;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.input {
+    background-color: transparent;
+    border: solid 1px #fff;
+    width: 630px;
+    height: 60px;
+    font-size: 20px;
+    font-family: MyriadProRegular;
+    margin-top: 15px;
+}
+.input-message {
+    background-color: transparent;
+    border: solid 1px #fff;
+    width: 630px;
+    height: 100px;
+    font-size: 20px;
+    font-family: MyriadProRegular;
+    margin-top: 15px;
+}
+.send {
+    background-color: #EE4036;
+    color: #fff;
+    font-family: HelveticaNeueLTStdBdCn;
+    border: 0;
+    width: 130px;
+    height: 45px;
+    font-size: 19px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+
+.footer-soc {
+    height: 90px;
+    background-color: #E6E6E6;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.footer-fb {
+    width: 60px;
+    height: 20px;
+    background-color: #4A62AC;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 6px;
+}
+.footer-google {
+    width: 60px;
+    height: 20px;
+    border: 2px solid #808184;
+    border-radius: 5px;
+    background-color: #F1F1F2;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 6px;
+}
+.footer-tweet {
+    width: 70px;
+    height: 20px;
+    background-color: #5FA8DC;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 7%;
+}
+.fb-img {
+    height: 15px;
+    width: 15px;
+}
+.g-img {
+    width: 20px;
+    height: 13px;
+}
+.t-img {
+    width: 10px;
+    height: 10px;
+}
+.fb-share {
+    font-size: 12px;
+    color: #fff;
+    font-family: HelveticaNeueLTStdBdCn;
+}
+.g-share {
+    color: #404041;
+    font-size: 12px;
+    font-family: HelveticaNeueLTStdBdCn;
+}
+.t-share {
+    color: #fff;
+    font-size: 12px;
+    font-family: HelveticaNeueLTStdBdCn;
+}
+.footer-byme {
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    font-family: MyriadProRegular;
+}
+.footer-byme:nth-child(2) {
+    margin-left: 7%;
+}
+
+.footer-byme:nth-child(2) {
+    margin-right: 7%;
+}
+
+
+
+.mob-menu {
+display: none;
+}
+.mob-menu.active {
+    display: block;
+}
+.mob-nav-ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+.mob-nav-li {
+    margin-top: 50px;
+}
+.mob-nav-a {
+    color: #3D58A6;
+    font-size: 48px;
+    text-transform: uppercase;
+    font-family: RobotoRegular;
+}
+.mob-nav-a:hover{
+    opacity: 0.6;
+} 
+.mob-social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mob-google {
+    margin-top: 60px;
+}
+.mob-fb {
+    margin-top: 55px;
+}
+.mob-youtube {
+    margin-top: 45px;
+}
+.mob-google-img {
+    height: 40px;
+    width: 100px;
+}
+.mob-fb-img {
+    height: 45px;
+    width: 25px;
+}
+.mob-youtube-img {
+    height: 50px;
+    width: 40px;
+}
+
+
+@media (max-width: 1188px) {
+.geolab {
+    width: 900px;
+    height: 460px;
+}
+.left {
+    margin-left: 10px;
+}
+.contact-section {
+    width: 940px;
+}
+
+
+
+@media (max-width: 960px) {
+.geolab {
+    width: 700px;
+    height: 460px;
+}
+.nav {
+    display: none;
+}
+
+.burger {
+    display: flex;
+}
+.contact-section {
+    width: 700px;
+    height: 810px;
+    align-items: center;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+}
+.left {
+    margin-left: 0;
+    margin-top: 45px;
+}
+.right {
+    margin-top: 25px;
+    margin-left: 0;
+}
+
+
+
+@media (max-width: 730px) {
+.geolab {
+    width: 500px;
+    height: 460px;
+}
+.contact-section {
+    width: 500px;
+}
+.right {
+    width: 330px;
+}
+.input {
+    width: 330px;
+    height: 50px;
+}
+.input-message {
+    width: 330px;
+}
+
+
+
+@media (max-width: 550px) {
+.none {
+    display: none;
+}
+.serch {
+    border: 0;
+    padding: 0;
+}
+.geolab {
+    width: 300px;
+    height: 260px;
+}
+.contact-section {
+    width: 300px;
+}
+.right {
+    width: 250px;
+}
+.input {
+    width: 250px;
+    height: 50px;
+}
+.input-message {
+    width: 250px;
+}
+
